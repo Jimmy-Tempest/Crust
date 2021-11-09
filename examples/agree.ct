@@ -1,0 +1,13 @@
+main()
+{
+    let c:char = "y";
+
+    if (c == 'y' || c == "Y")
+    {
+        return "Agreed.";
+    }
+    else if (c == 'n' or c == "N")
+    {
+        return "Not Agreed.";
+    }
+}

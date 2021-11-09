@@ -1,0 +1,12 @@
+print:string(txt:string)
+{
+    return txt;
+}
+
+main()
+{
+    for (let i:int = 0; i < n; i++) 
+    {
+        print("meow");
+    }
+}

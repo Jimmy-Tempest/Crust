@@ -1,0 +1,7 @@
+main()
+{
+    let x:int = 5; // get_int(prompt, default?)
+    const y:float = 1.5; // get_float(prompt, default?)
+
+    return x + y;
+}
