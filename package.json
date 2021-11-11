@@ -1,0 +1,36 @@
+{
+  "name": "crust",
+  "version": "1.0.0",
+  "description": "A compiled language based on Rust for CS50x final project",
+  "main": "./lib/index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "lint": "tslint -c tslint.json src/**/*.ts",
+    "prepublish": "npm run build",
+    "dev": "ts-node index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jimmy-Tempest/Crust.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jimmy-Tempest/Crust/issues"
+  },
+  "homepage": "https://github.com/Jimmy-Tempest/Crust#readme",
+  "dependencies": {},
+  "files": [
+    "./bin/*",
+    "./lib/*"
+  ],
+  "typings": "./lib/index.d.ts",
+  "devDependencies": {
+    "tslint": "^6.1.3",
+    "typescript": "^4.4.4"
+  }
+}
